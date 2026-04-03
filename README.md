@@ -3,7 +3,10 @@
 An AI-powered code assistant that can **generate, explain, and debug code** using LLaMA 3 via Groq API.
 Built with a simple and clean UI using Streamlit.
 
-## 🌐 Live Demo  
+---
+
+## 🌐 Live Demo
+
 🔗 https://ai-code-generator-s17.streamlit.app/
 
 ---
@@ -30,7 +33,7 @@ Built with a simple and clean UI using Streamlit.
 
 ## 📁 Project Structure
 
-```
+```id="7r7tqf"
 ai-code-generator/
 │
 ├── app.py
@@ -45,29 +48,29 @@ ai-code-generator/
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions (Windows)
 
 ### 1. Clone the repository
 
-```
-git clone https://github.com/supriti10/ai-code-generator.git
-cd ai-code-generator
+```id="6d8r0q"
+git clone https://github.com/Satyakimaiti/AI-Code-Generator.git
+cd AI-Code-Generator
 ```
 
 ---
 
 ### 2. Create virtual environment
 
-```
-python3 -m venv venv
-source venv/bin/activate
+```id="k3z4jz"
+python -m venv venv
+venv\Scripts\activate
 ```
 
 ---
 
 ### 3. Install dependencies
 
-```
+```id="u6bb9q"
 pip install -r requirements.txt
 ```
 
@@ -75,9 +78,9 @@ pip install -r requirements.txt
 
 ### 4. Add API Key
 
-Create a `.env` file:
+Create a `.env` file in root folder:
 
-```
+```id="cbz0zo"
 GROQ_API_KEY=your_api_key_here
 ```
 
@@ -85,7 +88,7 @@ GROQ_API_KEY=your_api_key_here
 
 ### 5. Run the application
 
-```
+```id="4x8q4u"
 streamlit run app.py
 ```
 
@@ -113,7 +116,7 @@ streamlit run app.py
 
 * API keys are stored in `.env`
 * `.env` is excluded using `.gitignore`
-* No sensitive data is exposed
+* Streamlit deployment uses secure secrets management
 
 ---
 
@@ -122,6 +125,6 @@ streamlit run app.py
 * Chat history (memory)
 * Multi-language detection
 * Code execution support
-* Deployment on cloud
+* UI enhancements
 
 ---
